@@ -79,7 +79,7 @@ export default function Home() {
                      note={note}/>
                     )):(
 <Box sx={{P:2}}>
-            <Typography color="success" sx={{textAlign:"center"}}>No Notes Found!</Typography>
+            <Typography color="error" sx={{textAlign:"center"}}>No Notes Found!</Typography>
             </Box>
                     )}
                 
