@@ -10,7 +10,7 @@ export default function InsertForm({notes,setNotes}) {
    };
    const handleSubmit=()=>{
     if(noteTitle==""){
-        setNoteTitleError("please enter a title")
+        setNoteTitleError("please enter the title")
 
     }else{ 
         // console.log(notes)
